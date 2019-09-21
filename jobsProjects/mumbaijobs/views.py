@@ -11,5 +11,5 @@ def punejobs(request):
     return HttpResponse(s)
 
 def hydjobs(request):
-    s='hyderabad jobs information'
+    s='<h1>hyderabad jobs information</h1>'
     return HttpResponse(s)
